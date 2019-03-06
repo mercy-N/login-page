@@ -1,0 +1,53 @@
+.wrapper {
+   display: flex;
+   flex-flow:column;
+   justify-content:center;
+   align-items:center;
+   max-width:100vw;
+   height: 100vh;
+   background: transparent; 
+}
+
+body {
+   background: url("hello.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    
+}
+
+
+#username {
+    padding: 20px 10px;
+    width: 450px;
+    line-height: 5px;
+    border: none !important;
+    background: transparent; 
+    border-bottom: 1px rgb(75, 31, 75) solid !important;
+
+}
+
+#username:focus {
+    outline: none !important;
+
+}
+#password {
+    padding: 20px 10px;
+    width:450px;
+    line-height: 5px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px rgb(75, 31, 75) solid !important;
+}
+button {
+    margin-top: 30px;
+    margin-right: 400px;
+    /* float: left !important; */
+    background: rgba(75,31,75,0.5);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+ p{
+     text-align:left;
+ }
